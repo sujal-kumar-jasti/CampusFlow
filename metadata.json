@@ -1,0 +1,6 @@
+{
+  "name": "Campus Companion",
+  "description": "All-in-one student app with auto GPS attendance, AI timetable analyzer & auto-silent scheduler, scientific calculator, and mini cam scanner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

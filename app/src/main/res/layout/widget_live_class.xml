@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_background">
+
+    <!-- Header Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Current Period"
+            android:textColor="@color/m3_text_secondary"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_campus_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On Campus"
+            android:textColor="@color/m3_accent_green"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp"
+            android:background="@drawable/widget_status_badge" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/widget_class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Mathematics &amp; Stats"
+        android:textColor="@color/m3_text_primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/widget_class_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09:00 AM - 10:00 AM • Room 102"
+        android:textColor="@color/m3_text_secondary"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/btn_widget_present"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="Present"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/widget_btn_present" />
+
+        <TextView
+            android:id="@+id/btn_widget_absent"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:text="Absent"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/widget_btn_absent" />
+
+        <TextView
+            android:id="@+id/btn_widget_cancel"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1.2"
+            android:text="Cancelled"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/widget_btn_cancel" />
+    </LinearLayout>
+</LinearLayout>

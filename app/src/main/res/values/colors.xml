@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pixel Material 3 Widget Colors -->
+    <color name="m3_widget_bg">#F3F4F9</color>
+    <color name="m3_widget_card">#FFFFFF</color>
+    <color name="m3_primary">#2563EB</color>
+    <color name="m3_primary_container">#DBEAFE</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_text_primary">#1F2937</color>
+    <color name="m3_text_secondary">#6B7280</color>
+    <color name="m3_accent_green">#10B981</color>
+    <color name="m3_accent_green_bg">#D1FAE5</color>
+    <color name="m3_border">#E5E7EB</color>
+</resources>
