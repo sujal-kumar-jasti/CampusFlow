@@ -6,9 +6,9 @@ object GpsLocationHelper {
 
     data class CampusLocation(
         val name: String = "IIEST, Shibpur",
-        val latitude: Double = 22.555215209463363,
-        val longitude: Double = 88.30750901250819,
-        val radiusMeters: Double = 30.0 
+        val latitude: Double = 22.555123,
+        val longitude: Double = 88.307615,
+        val radiusMeters: Double = 26.0
     )
 
     /**
